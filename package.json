@@ -44,12 +44,13 @@
     "eslint-plugin-ember": "^5.2.0",
     "loader.js": "^4.7.0",
     "qunit-dom": "^0.8.0",
-    "broccoli-babel-transpiler": "stefanpenner/broccoli-swc#0.2.0"
+    "broccoli-babel-transpiler": "stefanpenner/broccoli-swc#0.2.1"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
   },
   "resolutions": {
-    "broccoli-babel-transpiler": "stefanpenner/broccoli-swc#0.2.0"
+    "broccoli-babel-transpiler": "stefanpenner/broccoli-swc#0.2.1",
+    "@ember/test-helpers": "stefanpenner/ember-test-helpers-1#master"
   }
 }
